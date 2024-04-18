@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<a href="{% url "products:new" %}"> 작성해버렷 </a>
+
+
+
+
+
+<ol>
+    {% for product  in products %} 
+    <li><a href="{% url "products:detail" product.pk %}">{{ product.title }}</a></li>
+    {% endfor %}
+</ol>
+
+
+{% endblock %} 
