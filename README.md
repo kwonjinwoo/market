@@ -18,3 +18,4 @@
 2. 글 수정
 3. 글 삭제
 4. 금액
+![image](https://github.com/kwonjinwoo/market/assets/158565724/bbc959fd-f0bc-424b-ad6d-1f2a214a4188)
